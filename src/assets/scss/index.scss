@@ -1,0 +1,13 @@
+// Global styles
+@import "./base";
+
+// Components
+@import "./components/header";
+@import "./components/modal";
+@import "./components/country-card";
+
+// Pages
+@import "./pages/home";
+@import "./pages/search";
+@import "./pages/not-found";
+@import "./pages/country-details";

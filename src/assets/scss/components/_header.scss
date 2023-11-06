@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  padding: 16px 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  .container {
+    .row {
+      justify-content: space-between;
+      align-items: center;
+      .logo {
+        font-size: 20px;
+        font-weight: 900;
+        a {
+          color: #fff;
+          transition: 0.3s ease;
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+      .navBar {
+        .navList {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          .navItem {
+            a {
+              color: #fff;
+              transition: 0.3s ease;
+              &:hover {
+                opacity: 0.8;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
